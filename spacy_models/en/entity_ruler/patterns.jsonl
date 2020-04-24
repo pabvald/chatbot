@@ -1,0 +1,16 @@
+{"label":"TOPIC","pattern":[{"LEMMA":"mobility"}],"id":"mobility"}
+{"label":"TOPIC","pattern":[{"TEXT":"erasmus"},{"TEXT":"+","OP":"?"}],"id":"mobility"}
+{"label":"TOPIC","pattern":[{"LEMMA":{"IN":["internship","work","study"]}},{"LEMMA":"abroad"}],"id":"mobility"}
+{"label":"TOPIC","pattern":[{"LEMMA":{"IN":["study","learn","improve"]}},{"TEXT":"a","OP":"?"},{"LEMMA":{"IN":["language","english","spanish","german","french","italian","chinese","arab","hindi","portuguese"]}}],"id":"language-courses"}
+{"label":"TOPIC","pattern":[{"LEMMA":{"IN":["language","english","spanish","german","french","italian","chinese","arab","hindi","portuguese"]},"OP":"?"},{"LEMMA":"course"}],"id":"language-courses"}
+{"label":"TOPIC","pattern":[{"TEXT":{"IN":["acommodation","housing","house","dormitory","apartment"]}}],"id":"acommodation"}
+{"label":"TOPIC","pattern":[{"LEMMA":"live"},{"TEXT":"place"}],"id":"acommodation"}
+{"label":"TIME","pattern":[{"TEXT":{"REGEX":"^([1-9]|10|11|12)$"}},{"TEXT":{"IN":["am","pm","a.m.","p.m."]}}],"id":"formatted-time"}
+{"label":"TIME","pattern":[{"TEXT":{"REGEX":"^([1-9]|10|11|12):(0|1|2|3|4|5)([0-9])?$"}},{"TEXT":{"IN":["am","pm","a.m","p.m."]}}],"id":"formatted-time"}
+{"label":"TIME","pattern":[{"TEXT":{"REGEX":"^(((0|1)?[0-9])|21|22|23|24):(0|1|2|3|4|5)([0-9])?$"}}],"id":"formatted-time"}
+{"label":"DATE","pattern":[{"TEXT":{"REGEX":"^([1-9]|[0-2][0-9]|(3)[0-1])(/)(((0)?[0-9])|((1)[0-2]))(/)[0-9]{4}$"}}],"id":"formatted-date"}
+{"label":"DATE","pattern":[{"LOWER":{"IN":["monday","tuesday","wednesday","thursday","friday","saturday","sunday","mon","tue","tu","tues","wed","th","thu","thur","thurs","fri","sat","sun"]},"OP":"?"},{"TEXT":{"REGEX":"^([1-9]|[0-2][0-9]|(3)[0-1])([st]|nd|rd|th)?$"}},{"TEXT":"of","OP":"?"},{"TEXT":{"IN":["january","february","march","april","may","june","july","august","september","october","november","december","jan","feb","apr","jun","jul","aug","sep","sept","oct","nov","dec"]}},{"TEXT":"of","OP":"?"},{"TEXT":{"REGEX":"^[0-9]{4}$"},"OP":"?"}],"id":"formatted-date"}
+{"label":"DATE","pattern":[{"TEXT":{"IN":["tomorrow","today"]}}],"id":"relative-date"}
+{"label":"DATE","pattern":[{"TEXT":{"IN":["monday","tuesday","wednesday","thursday","friday","saturday","sunday","mon","tue","tu","tues","wed","th","thu","thur","thurs","fri","sat","sun"]}}],"id":"relative-date"}
+{"label":"DATE","pattern":[{"TEXT":"in"},{"IS_DIGIT":true},{"LEMMA":{"IN":["day","week","month","year"]}}],"id":"relative-date"}
+{"label":"DATE","pattern":[{"IS_DIGIT":true},{"LEMMA":{"IN":["day","week","month","year"]}},{"TEXT":"ago"}],"id":"relative-date"}

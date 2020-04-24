@@ -1,0 +1,15 @@
+{"label":"TOPIC","pattern":[{"LEMMA":"movilidad"}],"id":"mobility"}
+{"label":"TOPIC","pattern":[{"LEMMA":"erasmus"},{"LEMMA":"+","OP":"?"}],"id":"mobility"}
+{"label":"TOPIC","pattern":[{"LEMMA":{"IN":["pr\u00e1ctico","trabajar","estudiar"]}},{"LEMMA":"fuera"}],"id":"mobility"}
+{"label":"TOPIC","pattern":[{"LEMMA":{"IN":["pr\u00e1ctico","trabajar","estudiar"]}},{"TEXT":"en"},{"TEXT":"el"},{"TEXT":"extranjero"}],"id":"mobility"}
+{"label":"TOPIC","pattern":[{"LEMMA":"curso"},{"LEMMA":{"IN":["estudiar","cursar","curso","aprender","mejorar"]}},{"TEXT":{"IN":["de","un"]},"OP":"?"},{"LEMMA":{"IN":["idioma","ingl\u00e9s","espa\u00f1ol","alem\u00e1n","franc\u00e9s","italiano","chino","\u00e1rabe","hindi","portugu\u00e9s"]}}],"id":"language-courses"}
+{"label":"TOPIC","pattern":[{"TEXT":{"IN":["alojamiento","casa","dormitorio","apartamento","piso","vivienda"]}}],"id":"acommodation"}
+{"label":"TOPIC","pattern":[{"TEXT":"lugar"},{"TEXT":"para"},{"TEXT":"vivir"}],"id":"acommodation"}
+{"label":"TIME","pattern":[{"TEXT":{"REGEX":"^([1-9]|10|11|12)$"}},{"TEXT":{"IN":["am","pm","a.m","p.m."]}}],"id":"formatted-time"}
+{"label":"TIME","pattern":[{"TEXT":{"REGEX":"^([1-9]|10|11|12):(0|1|2|3|4|5)([0-9])?$"}},{"TEXT":{"IN":["am","pm","a.m","p.m."]}}],"id":"formatted-time"}
+{"label":"TIME","pattern":[{"TEXT":{"REGEX":"^(((0|1)?[0-9])|21|22|23|24):(0|1|2|3|4|5)([0-9])?$"}}],"id":"formatted-time"}
+{"label":"DATE","pattern":[{"TEXT":{"REGEX":"^([1-9]|[0-2][0-9]|(3)[0-1])(/)(((0)?[0-9])|((1)[0-2]))(/)[0-9]{4}$"}}],"id":"formatted-date"}
+{"label":"DATE","pattern":[{"TEXT":{"IN":["lunes","martes","miercoles","mi\u00e9rcoles","jueves","sabado","s\u00e1bado","domingo","lu","ma","mi","ju","vi","sa","s\u00e1","do"]},"OP":"?"},{"TEXT":{"REGEX":"^([1-9]|[0-2][0-9]|(3)[0-1])$"}},{"TEXT":"de","OP":"?"},{"TEXT":{"IN":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre","ene","feb","mar","abr","may","jun","jul","ago","set","sep","oct","nov","dic"]}},{"TEXT":"de","OP":"?"},{"TEXT":{"REGEX":"^([0-9]{4})|([0-9]{2})$"},"OP":"?"}],"id":"formatted-date"}
+{"label":"DATE","pattern":[{"TEXT":{"IN":["ma\u00f1ana","hoy"]}}],"id":"relative-date"}
+{"label":"DATE","pattern":[{"TEXT":{"IN":["lunes","martes","miercoles","mi\u00e9rcoles","jueves","sabado","s\u00e1bado","domingo","lu","ma","mi","ju","vi","sa","s\u00e1","do"]}}],"id":"relative-date"}
+{"label":"DATE","pattern":[{"TEXT":{"IN":["en","hace"]}},{"IS_DIGIT":true},{"LEMMA":{"IN":["d\u00eda","dia","semana","mes","a\u00f1o"]}}],"id":"relative-date"}

@@ -1,0 +1,7 @@
+{
+  "cnn_maxout_pieces":2,
+  "deprecation_fixes":{
+    "vectors_name":"es_core_news_md.vectors"
+  },
+  "pretrained_vectors":"es_core_news_md.vectors"
+}

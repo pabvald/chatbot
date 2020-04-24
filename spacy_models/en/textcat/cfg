@@ -1,0 +1,15 @@
+{
+  "exclusive_classes":true,
+  "architecture":"ensemble",
+  "labels":[
+    "cancel",
+    "appointment",
+    "help",
+    "welcome",
+    "contact",
+    "farewell",
+    "thank",
+    "fallback"
+  ],
+  "pretrained_vectors":"en_core_web_md.vectors"
+}

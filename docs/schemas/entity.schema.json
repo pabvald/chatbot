@@ -1,0 +1,110 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "02",
+    "type": "object",
+    "title": "The Entity Schema",
+    "description": "The enity schema comprises the entire JSON document.",
+    "required": [
+        "label",
+        "entries"
+    ],
+    "properties": {
+        "label": {
+            "$id": "#/properties/label",
+            "type": "string",
+            "title": "The Label Schema",
+            "description": "The name of the entity"
+        },
+        "entries": {
+            "$id": "#/properties/entries",
+            "type": "array",
+            "title": "The Entries Schema",
+            "description": "Key-synonyms pairs",
+            "items": {
+                "$id": "#/properties/entries/items",
+                "type": "object",
+                "title": "The Items Schema",
+                "description": "Elements of an entity's entry",                
+                "required": [
+                    "id",
+                    "value",
+                    "patterns"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#/properties/entries/items/properties/id",
+                        "type": "string",
+                        "title": "The Id Schema",
+                        "description": "An identifier for the entry"
+                    },
+                    "value": {
+                        "$id": "#/properties/entries/items/properties/value",
+                        "type": "object",
+                        "title": "The Value Schema",
+                        "description": "The key values",
+                        "required": [
+                            "en",
+                            "es"
+                        ],
+                        "properties": {
+                            "en": {
+                                "$id": "#/properties/entries/items/properties/value/properties/en",
+                                "type": "string",
+                                "title": "The En Schema",
+                                "description": "The key values in English"
+                            },
+                            "es": {
+                                "$id": "#/properties/entries/items/properties/value/properties/es",
+                                "type": "string",
+                                "title": "The Es Schema",
+                                "description": "The key values in Spanish"
+                            }
+                        }
+                    },
+                    "patterns": {
+                        "$id": "#/properties/entries/items/properties/patterns",
+                        "type": "object",
+                        "title": "The Patterns Schema",
+                        "description": "The spaCy patterns that define the corresponding value",                         
+                        "required": [
+                            "en",
+                            "es"
+                        ],
+                        "properties": {
+                            "en": {
+                                "$id": "#/properties/entries/items/properties/patterns/properties/en",
+                                "type": "array",
+                                "title": "The En Schema",
+                                "description": "The spaCy patterns that define the corresponding value in English",
+                                "default": [],
+                                "items": {
+                                    "$id": "#/properties/entries/items/properties/patterns/properties/en/items",
+                                    "type": "array",
+                                    "items": {
+                                        "$id": "#/properties/entries/items/properties/patterns/properties/en/items/items",
+                                        "type": "object"
+                                    }
+                                }
+                            },
+                            "es": {
+                                "$id": "#/properties/entries/items/properties/patterns/properties/es",
+                                "type": "array",
+                                "title": "The Es Schema",
+                                "description": "The spaCy patterns that define the corresponding value in Spanish",
+                                "default": [],
+                                "items": {
+                                    "$id": "#/properties/entries/items/properties/patterns/properties/es/items",
+                                    "type": "array",
+                                    "items": {
+                                        "$id": "#/properties/entries/items/properties/patterns/properties/es/items/items",
+                                        "type": "object"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

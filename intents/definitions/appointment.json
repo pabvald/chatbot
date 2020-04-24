@@ -1,0 +1,87 @@
+{
+    "name": "appointment",
+    "training_phrases":{
+        "en": [
+            "make an appointment",
+            "i want to make an appointment",
+            "can i make an appointment ?",
+            "i would like to make an appointment",
+            "make appointment",
+            "i want to make an appointment for next monday at 12:00 am",
+            "i would like to make an appointment to discuss erasmus studies",
+            "make appointment for 04/12/2020 at 21:34 to talk about language courses",
+            "appointment for tomorrow at 2 pm",
+            "appointment fot the 3rd of April at 8:45",
+            "make appointment for tomorrow"
+         ],
+        "es": [
+            "concertar cita",
+            "quiero concertar una cita",
+            "¿puedo concertar una cita?",
+            "me gustaría concertar una cita",
+            "concertar una cita",
+            "quiero concertar una cita para el próximo lunes a las 12:15",
+            "me gustaría concertar uan cita para hablar sobre estudios erasmus",
+            "concertar cita para el 04/12/2020 a las 11 am para hablar de cursos de idiomas",
+            "cita par mañana a las 9 p.m",
+            "cita para el 3 de abril a las 8:45",
+            "concertar cita para mañana"
+        ]  
+    }, 
+    "action": "make_appointment",
+    "parameters": [
+        {
+            "name": "topic",
+            "required": true,
+            "prompts":{
+                "en":[
+                    "What matter do you want to discuss in your appointment?",
+                    "Please, indicate the matter to be discussed in the appointment."
+                ],
+                "es":[
+                    "Por favor, indica el asunto a tratar.",
+                    "¿Qué tema te gustaría tratar en la cita?"
+                ] 
+            },                
+            "entity": "TOPIC"
+        },
+        {
+            "name": "date",
+            "required": true,
+            "prompts":{ 
+                "en":[
+                    "What date would you like to have the appointment?",
+                    "Please, indicate the desired date of the appointment."
+                ],
+                "es":[
+                    "¿Qué día te gustaría tener la cita?",
+                    "Por favor, indicar el día deseado para la cita."
+                ] 
+            },             
+            "entity": "DATE"
+        },
+        {
+            "name": "time",
+            "required": true,
+            "prompts": { 
+                "en":[
+                    "What time would you like to have the appointment?",
+                    "Please, indicate the desired time for the appointment."
+                ],
+                "es":[
+                    "¿A qué hora te gustaría tener tu cita?",
+                    "Por favor, indica la hora a la que deseas tener la cita."
+                ] 
+            },  
+            "entity": "TIME"
+        }        
+    ],
+    "responses":{
+        "en": [
+            "An appointment has been made for {date} at {time}, to discuss {topic}."
+        ],
+        "es":[
+            "Se ha concertado una cita para el {date} a las {time}, para hablar sobre {topic}."
+        ]     
+    }
+}

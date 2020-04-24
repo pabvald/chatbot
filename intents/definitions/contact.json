@@ -1,0 +1,44 @@
+{
+    "name": "contact",
+    "training_phrases":{
+        "en": [      
+            "office hours",
+            "office address",
+            "office telephone",
+            "office email",
+            "office contact",
+            "office schedule",
+            "contact information",
+            "do you have some contact info?",
+            "what are the office hours?",
+            "can you give me the contact information?",
+            "what is the address of the international relationships office?",
+            "where is the office?",
+            "when is the office opened?"
+        ],
+        "es": [
+            "horario de la oficina",
+            "dirección de la oficina",
+            "teléfono de la oficina",
+            "contacto de la oficina",
+            "email de la oficina",
+            "información de contacto",
+            "cuál es el horario de la oficina?",
+            "¿puedes darme la información de contacto?",
+            "dime el número de la oficina",
+            "dónde está la oficina de relaciones internacionales?",
+            "¿cómo puedo contactar con la oficina?",
+            "¿tienes información de contacto?"
+        ] 
+    },  
+    "action": ""  ,
+    "parameters": [],
+    "responses":{
+        "en": [
+            "Here's the information about the International Relationships office:\n\n<b>Address</b>\n\t\tCasa del Estudiante (Ground floor)\n\t\tC/ Real de Burgos s/n\n\t\t47011 Valladolid (España)\n\t\t<a href=\"https://goo.gl/maps/H3TAdURuHusdwugB9\">(See it in Google Maps)</a>\n<b>Hours</b>\n\t\tMon. to Fri., 09:00 - 14:00h\n<b>Telephone</b>\n\t\t+34 983 42 32 83\n<b>Email</b>\n\t\trelint@uva.es\n"
+        ],
+        "es":[
+            "Aquí tienes la información sobre la oficina de Relaciones Internacionales:\n\n<b>Dirección</b>\n\t\tCasa del Estudiante (Planta Baja)\n\t\tC/ Real de Burgos s/n\n\t\t47011 Valladolid (España)\n\t\t<a href=\"https://goo.gl/maps/H3TAdURuHusdwugB9\">(Ver en Google Maps)</a>\n<b>Horario</b>\n\t\tLun. a Vie., 09:00 - 14:00h\n<b>Teléfono</b>\n\t\t+34 983 42 32 83\n<b>Email</b>\n\t\trelint@uva.es"
+        ] 
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name": "fallback",
+    "training_phrases":{
+        "en": [
+            "damn",
+            "how old are you?",
+            "i love you",
+            "what is the minimum number of credits i need to course ?",
+            "i still don't have my student card and i need it, what should i do?",
+            "can i take an exam if i am in my home country?",
+            "whats's the weather like?",
+            "you are so annoying",
+            "can i study in english at the uva?",
+            "i love you",
+            "say something"
+        ],
+
+        "es":[
+            "puedes contarme un chiste?",
+            "cuántos años tienes?",
+            "dime algo gracioso",
+            "cuál es el mínimo número de créditos que puedo estudiar?",
+            "eres molesto",
+            "¿cómo hace hoy?",
+            "te quiero",
+            "di algo",
+            "las setas te aportan nutrientes",
+            "quiero pedir una pizza, por favor",
+            "qué asignaturas puedo estudiar en la universidad de valladolid?",
+            "en qué idiomas son las clases de la UVA?",
+            "cuando son los exámenes extraordinarios?",
+            "mierda"
+        ] 
+    },
+    "action": "",
+    "parameters": [],
+    "responses": {
+        "en":[
+            "I didn't get that. Can you say it again?",
+            "I missed what you said. What was that?",
+            "Sorry, could you say that again",
+            "Can you say that again?",
+            "Sorry, i didn't get that. Can you rephrase?",
+            "Sorry, what was that?",
+            "One more time?",
+            "What was that?",
+            "Say that on more time?",
+            "I didn't get that. Can you repeat?",
+            "I missed that, say that again?"
+        ],
+        "es":[
+            "Ups, no he entendido a qué te refieres",
+            "¿Podrías repetirlo, por favor?",
+            "¿Disculpa?",
+            "¿Decías?",
+            "¿Cómo?",
+            "Lo siento, pero no te he entendido bien. ¿Puedes repetirlo?",
+            "Lo siento, ¿puedes decirlo de nuevo?"
+        ]  
+    }    
+}

@@ -1,0 +1,1 @@
+The QA pairs can be found in my repository [uva_faqs](https://github.com/pabvald/uva_faqs).   

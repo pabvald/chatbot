@@ -1,0 +1,43 @@
+{
+    "name": "farewell",    
+    "training_phrases": {
+        "en": [
+            "good bye",
+            "bye bye",
+            "see you later",
+            "see ya",
+            "see you",
+            "bye",
+            "goodbye",
+            "see you soon"
+        ],
+        "es":[
+            "adiós",
+            "hasta luego",
+            "me voy",
+            "nos vemos",
+            "hasta pronto",
+            "nos vemos pronto",
+            "me piro",
+            "chao",
+            "adiós adiós"
+        ] 
+    }, 
+    "action": "",
+    "parameters": [],
+    "responses":{
+        "en": [
+            "Good bye!",
+            "See your later!",
+            "See you soon!",
+            "Bye, bye!",
+            "Bye, human!"
+        ],
+        "es":[
+            "¡Hasta luego!",
+            "¡Nos vemos pronto!",
+            "Adiós, adiós",
+            "Adiós, humano"
+        ]  
+    }    
+}

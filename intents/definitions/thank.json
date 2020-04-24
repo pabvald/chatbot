@@ -1,0 +1,37 @@
+{
+    "name": "thank",
+    "training_phrases":{
+        "en":[
+            "thanks",
+            "thank you!",
+            "appreciate that",
+            "appreciate it",
+            "thanks a lot",
+            "ty",
+            "thank you very much",
+            "thanks, you are the best"
+        ],
+        "es":[
+            "grax",
+            "gracias",
+            "muchas gracias!",
+            "te lo agradezco",
+            "gracias, eres el mejor",
+            "muchísimas gracias!"
+        ] 
+    },
+    "action": "",
+    "parameters": [],
+    "responses":{
+        "en": [
+            "You're welcome",
+            "I do my best",
+            "It was nothing :)"
+        ],
+        "es":[
+            "De nada",
+            "Hago lo que puedo",
+            "No ha sido nada :)"
+        ] 
+    }
+}

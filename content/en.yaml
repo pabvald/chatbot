@@ -1,0 +1,20 @@
+no: "No" 
+yes: "Yes"
+
+welcome: "Nice to meet you!!"
+
+unsupported_type_msg: "I'm sorry, but I can only understand text messages."
+
+internal_error: "Ups, something went wrong. Please, try again later"
+
+deactivate_intent:
+  error: "Sorry, but I wasn't able to cancel that. Please, try again later"
+
+make_appointment:
+  past_date: "There's a problem. {date} is a past date."
+  past_datetime: "{date} at {time} is a past datetime. Time travel has not developed enough yet."
+  office_close_date: "The office is not open on {date}. Please, provide another date."
+  office_close_time: "The office is not open on {date} at {time}. Please, provide another time."
+  not_available_date: "There aren't any available slots on {date}. Please, indicate another date."
+  not_available_time: "The specified time is not available on {date}. Please, indicate another time."
+  error:  "Sorry, but I wasn't able to make the appointment. Please, try again later"

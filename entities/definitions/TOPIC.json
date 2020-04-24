@@ -1,0 +1,97 @@
+{
+    "label": "TOPIC",
+    "entries": [ 
+        {
+            "id": "mobility",
+            "value":{
+                "en": "mobility",
+                "es": "movilidad"
+            }, 
+            "patterns":{
+                "en": [
+                    [
+                        {"LEMMA": "mobility"}
+                    ],
+                    [
+                        {"TEXT": "erasmus"}, 
+                        {"TEXT": "+", "OP": "?"}
+                    ],
+                    [
+                        {"LEMMA": {"IN":["internship", "work", "study"]}}, 
+                        {"LEMMA": "abroad"}
+                    ]   
+                   ],
+                "es":[
+                    [{"LEMMA": "movilidad"}],
+                    [
+                        {"LEMMA": "erasmus"}, 
+                        {"LEMMA": "+", "OP": "?"}
+                    ],
+                    [
+                        {"LEMMA": {"IN":["práctico", "trabajar", "estudiar"]}}, 
+                        {"LEMMA": "fuera"}
+                    ],
+                    [
+                        {"LEMMA": {"IN":["práctico", "trabajar","estudiar"]}}, 
+                        {"TEXT": "en"},  
+                        {"TEXT": "el"},  
+                        {"TEXT": "extranjero"}
+                    ]  
+                ] 
+            } 
+        },
+        {
+            "id": "language-courses",
+            "value":{
+                "en": "language courses",
+                "es": "cursos de idiomas"
+            }, 
+            "patterns": {
+                "en": [
+                    [
+                        {"LEMMA": {"IN": ["study", "learn", "improve"]}}, {"TEXT": "a", "OP": "?"}, 
+                        {"LEMMA": {"IN": ["language", "english",  "spanish",  "german",  "french",  "italian",  "chinese",  "arab",  "hindi",  "portuguese"]}}  
+                    ],
+                    [
+                        {"LEMMA": {"IN": ["language", "english",  "spanish",  "german",  "french",  "italian",  "chinese",  "arab",  "hindi",  "portuguese"]}, "OP": "?"},
+                        {"LEMMA": "course"}
+                    ]
+
+                ],
+                "es":[
+                    [   
+                        {"LEMMA": "curso"},   
+                        {"LEMMA": {"IN":  ["estudiar", "cursar", "curso", "aprender", "mejorar"]}}, 
+                        {"TEXT": {"IN":  ["de", "un"]}, "OP": "?"},
+                        {"LEMMA": {"IN": ["idioma", "inglés", "español", "alemán", "francés", "italiano", "chino", "árabe", "hindi", "portugués"]}} 
+                    ]  
+                ]  
+            } 
+        },
+        {
+           "id": "acommodation",
+           "value":{
+               "en": "acommodation",
+               "es": "alojamiento"
+           }, 
+           "patterns":{
+               "en": [
+                   [
+                       {"TEXT": {"IN": ["acommodation", "housing", "house", "dormitory", "apartment"]}}
+                    ], 
+                   [
+                       {"LEMMA": "live"}, {"TEXT": "place"}
+                    ]
+                ],
+                "es":[
+                    [
+                        {"TEXT": {"IN": ["alojamiento", "casa", "dormitorio", "apartamento", "piso", "vivienda"]}}
+                    ], 
+                    [
+                        {"TEXT": "lugar"}, {"TEXT": "para"},  {"TEXT": "vivir"}
+                    ]                              
+                ]
+           } 
+        }
+    ]
+}

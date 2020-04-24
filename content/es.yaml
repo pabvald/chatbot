@@ -1,0 +1,20 @@
+no: "No" 
+yes: "Sí"
+
+welcome: "¡Encantado de conocerte!"
+
+unsupported_type_msg: "Lo siento, pero sólo entiendo mensajes de texto."
+
+internal_error: "Vaya, algo ha ido mal. ¿Puedes repetirlo?"
+
+deactivate_intent:
+  error: "Lo siento, pero no he sido capaz de cancelarlo. Por favor, inténtalo de nuevo más tarde." 
+  
+make_appointment:
+  past_date: "Lo siento, pero el {date} es una fecha pasada. Los viajes en el tiempo no se han desarrollado lo suficiente..."
+  past_datetime: "Lo siento, pero el {date} a las {time} es un tiempo pasado."
+  office_close_date: "La oficina no está abierta el {date}. Proporciona otra fecha, por favor."
+  office_close_time: "La oficina no está abierta el {date} a las {time}. Proporciona otra hora, por favor"
+  not_available_date: "No hay citas disponibles el {date}. Por favor, indica otra fecha."
+  not_available_time: "La hora espcificada para el {date} ya está ocupada. Por favor, indica otra hora."
+  error: "Lo siento, pero no he sido capaz de concertar la cita. Por favor, inténtalo de nuevo más tarde."

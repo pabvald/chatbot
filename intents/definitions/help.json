@@ -1,0 +1,37 @@
+{
+    "name": "help",
+    "training_phrases":{
+        "en": [
+            "can you give me a hand here?",
+            "i don't know what to do",
+            "any help?",
+            "can you help me?",
+            "help me",
+            "help",
+            "what can you do?",
+            "how do you work?",
+            "i need help"
+        ],
+        "es": [
+            "qué eres capaz de hacer?",
+            "qué puedes hacer?",
+            "necesito ayuda",
+            "ayuda",
+            "puedes ayudarme?",
+            "¿alguna ayuda?",
+            "ayúdame",
+            "necesito tu ayuda",
+            "¿puedes echarme una mano?"
+        ] 
+    },  
+    "action": ""  ,
+    "parameters": [],
+    "responses":{
+        "en": [
+            "I am able to\n\n<b>+</b> Answer FAQs about studying at the UVa\n<b>+</b> Make an appointment in the International Relationships office so that you can talk to a person."
+        ],
+        "es":[
+            "Si no soy capaz de resolverte una pregunta, puedo <b>concertar una cita</b> para que puedas hablar con una persona en la oficina de Relaciones Internacionales."
+        ] 
+    }
+}

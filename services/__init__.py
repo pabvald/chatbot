@@ -1,0 +1,5 @@
+from services.user_service import UserService
+from services.intent_service import IntentService
+from services.knowledge_service import KnowledgeService
+from services.entity_service import EntityService
+from services.appointment_service import AppointmentService

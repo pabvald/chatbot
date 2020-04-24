@@ -1,0 +1,37 @@
+{
+    "name": "cancel",
+    "training_phrases":{
+        "en":[
+            "i want to cancel",
+            "abort",
+            "exit",
+            "cancel it",
+            "cancel",
+            "go back",
+            "I want to cancel the appointment",
+            "cancel the appointment"
+         ],
+        "es":[
+            "cancelar",
+            "quiero cancelarlo",
+            "salir",
+            "cancelalo",
+            "abortar",
+            "atrás",
+            "quiero cancelar la cita",
+            "cancelar la cita"
+        ]  
+    },
+    "action": "deactivate_intent",
+    "parameters": [],   
+    "responses":{
+        "en": [
+            "Okay, we'll leave it for another time.",
+            "Of course. We can leave it for another time."
+        ],
+        "es":[
+            "De acuerdo, lo dejamos para otro momento.",
+            "Por supuesto. Podemos dejarlo para otro momento."
+        ] 
+    }    
+}

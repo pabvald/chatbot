@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "title": "The Knowledge Schema",
+    "description": "The knowledge schema comprises the entire JSON document.",
+    "default": [],
+    "additionalItems": true,
+    "items": {
+        "$id": "#/items",
+        "type": "object",
+        "title": "A Question-Answer pair",
+        "description": "It contains a FAQ, its answer and, if the training has already taken place, the FAQ's embedding.",
+        "default": {},
+        "additionalProperties": true,
+        "required": [
+            "answer",
+            "question"
+        ],
+        "properties": {
+            "answer": {
+                "$id": "#/items/properties/answer",
+                "type": "string",
+                "title": "The Answer Schema",
+                "description": "The FAQ's answer."           
+            },
+            "embedding": {
+                "$id": "#/items/properties/embedding",
+                "type": "array",
+                "title": "The Embedding Schema",
+                "description": "The FAQ's embedding.",
+                "additionalItems": true,
+                "items": {
+                    "$id": "#/items/properties/embedding/items",
+                    "type": "number"
+                }
+            },
+            "question": {
+                "$id": "#/items/properties/question",
+                "type": "string",
+                "title": "The Question Schema",
+                "description": "The FAQ's text."
+            }
+        }
+    }
+}

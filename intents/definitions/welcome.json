@@ -1,0 +1,40 @@
+{
+    "name": "welcome",
+    "training_phrases":{
+        "en": [
+            "hello",
+            "hi",
+            "greetings, bot",
+            "just going to say hi",
+            "heya",
+            "howdy",
+            "hey there",
+            "hi there",
+            "hey",
+            "greetings",
+            "hello again",
+            "hello there",
+            "lovely day isn't it"
+        ],
+        "es":[
+            "hace un día precioso, no crees?",
+            "hola de nuevo",
+            "cuánto tiempo!",
+            "buenos días",
+            "hola, qué tal?",
+            "saludos",
+            "buenas",
+            "hola"
+        ] 
+    },
+    "action": "",
+    "parameters": [],
+    "responses":{        
+        "en" :  [ 
+            "Hi.\nI'm Relint Bot. I'm here to help you solve any question about studying at the University of Valladolid. If you have any doubts, you ask me for help."
+        ],
+        "es":[
+            "Hola.\nMi nombre es Relint Bot. Estoy aquí para resolver cualquier duda que tengas sobre tu estancia en la Universidad de Valladolid. Si tienes alguna duda, puedes pedirme ayuda."
+        ] 
+    }   
+}

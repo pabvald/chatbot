@@ -2,5 +2,7 @@
 
 Part of the thesis **"Virtual assistants: state of the art and building of a prototype"**. Prototype of a virtual assistant for the International Relations service of the University of Valladolid. Built with **Flask** and **spaCy**.
 
-see my whole bachelor thesis [here](https://github.com/pabvald/bachelor_thesis/).
+<hr>
+
+See my whole bachelor thesis [here](https://github.com/pabvald/bachelor_thesis/).
 
